@@ -54,7 +54,6 @@ $noisy = 0;            # Set to 1 if you want noisy reports.
 
 # The following extensions are NOT code:
 %not_code_extensions = (
-   "html" => 1,
    "in" => 1,    # Debatable.
    "xpm" => 1,
    "po" => 1,
@@ -178,9 +177,9 @@ $noisy = 0;            # Set to 1 if you want noisy reports.
   "py" => "python",
   "s" => "asm", "S" => "asm", "asm" => "asm",
   "sh" => "sh", "bash" => "sh",
-  "csh" => "csh", "tcsh" => "csh", 
+  "csh" => "csh", "tcsh" => "csh",
   "java" => "java",
-  "lisp" => "lisp", "el" => "lisp", "scm" => "lisp", "sc" => "lisp", 
+  "lisp" => "lisp", "el" => "lisp", "scm" => "lisp", "sc" => "lisp",
   "lsp" => "lisp", "cl" => "lisp",
   "jl" => "lisp",
   "tcl" => "tcl", "tk" => "tcl", "itk" => "tcl",
@@ -206,9 +205,10 @@ $noisy = 0;            # Set to 1 if you want noisy reports.
    # ???: .pco is Oracle Cobol
   "jsp" => "jsp",  # Java server pages
   #new file types:
-  "css" => "css",
+  "css" => "css", "sass" => "css", "scss" => "css",
   "xml" => "xml",
   "js" => "js",
+  "html" => "html", "haml" => "html", "erb" => "html"
 );
 
 

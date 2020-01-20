@@ -121,6 +121,7 @@ EXECUTABLES= \
    js_count \
    css_count \
    xml_count \
+   html_count \
    $(COMPILED_EXECUTABLES)
 
 MANPAGES=sloccount.1.gz

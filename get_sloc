@@ -73,7 +73,6 @@ $no_license_total = 0;
 %ignore_language_list = (
  "makefile" => 1,
  "sql" => 1,
- "html" => 1,
 );
 
 # Default input values
